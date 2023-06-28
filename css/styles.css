@@ -353,11 +353,41 @@ img{
     margin-bottom: 72px;
 }
 
-/* Customers section */
+.customers-container {}
 
-.customers-container{}
+.customers-list {
+    display:flex;
+    justify-content:center;
+    gap:24px;
 
-.customers-icon{}
+}
+
+.customers-item {}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 168px;
+    height: 88px;
+
+    border-radius: 4px;
+    border: 1px solid #8E8F99
+}
+
+.customers-icon {
+    fill: #8E8F99;
+}
+
+.customers-link:hover{
+    border: #404BBF;
+}
+
+.customers-link:hover .customers-icon{
+    fill: #404BBF;
+}
+
 
 /* Footer section */
 
