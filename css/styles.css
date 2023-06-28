@@ -63,9 +63,6 @@ img{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-    outline: 3px solid tomato ;
-    outline-offset: -2px;
 }
 
 /* Main */
@@ -168,8 +165,14 @@ img{
 /* Hero section */
 
 .hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -274,6 +277,8 @@ img{
     padding: 120px 0;
 }
 
+.team-container{}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -293,6 +298,7 @@ img{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width:calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .tema-name-profession {
@@ -318,6 +324,29 @@ img{
     padding-bottom: 32;
     text-align: center;
 }
+
+/* Customers section */
+
+.customers-section{
+    padding: 120px 0;
+}
+
+.customers-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--bg-cl-navyblue);
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+/* Customers section */
+
+.customers-container{}
+
+.customers-icon{}
 
 /* Footer section */
 
