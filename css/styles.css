@@ -381,7 +381,7 @@ img{
 }
 
 .customers-link:hover{
-    border: #404BBF;
+    border-color: #404BBF;
 }
 
 .customers-link:hover .customers-icon{
