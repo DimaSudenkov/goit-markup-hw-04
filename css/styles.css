@@ -212,6 +212,15 @@ img{
     padding: 120px 0;
 }
 
+.benefits-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    background: var(--bg-cl-cloud);
+}
+
 .benefits-title {
     color: var(--bg-cl-navyblue);
 }
