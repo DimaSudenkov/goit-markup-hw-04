@@ -216,10 +216,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px 0;
 
     border-radius: 4px;
     background: var(--bg-cl-cloud);
 }
+
 
 .benefits-title {
     color: var(--bg-cl-navyblue);
