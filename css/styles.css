@@ -220,6 +220,7 @@ img{
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+    margin-bottom: 8px;
 
     border-radius: 4px;
     background: var(--bg-cl-cloud);
@@ -316,7 +317,7 @@ img{
 }
 
 .tema-name-profession {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-name {
@@ -342,6 +343,11 @@ img{
 .team-list-messenger{
     display: flex;
     gap: 24px;
+    justify-content: center;
+}
+
+.team-item-icon{
+    fill: #f4f4fd;
 }
 
 .team-link-messenger{
