@@ -132,6 +132,7 @@ img{
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -155,6 +156,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-networks .header-networks-link:hover,
@@ -199,6 +201,7 @@ img{
     margin: 0 auto;
     padding: 16px 32px;
     min-width: 169px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -332,9 +335,32 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32;
     text-align: center;
+    margin-bottom: 8px;
 }
+
+.team-list-messenger{
+    display: flex;
+    gap: 24px;
+}
+
+.team-link-messenger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link-messenger:hover,
+.team-link-messenger:focus{
+    background-color: #404BBF;
+}
+
+.team-icon-messenger{}
 
 /* Customers section */
 
@@ -373,18 +399,22 @@ img{
     height: 88px;
 
     border-radius: 4px;
-    border: 1px solid #8E8F99
+    border: 1px solid #8E8F99;
+    transition: border-color, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .customers-icon {
     fill: #8E8F99;
 }
 
-.customers-link:hover{
+.customers-link:hover,
+.customers-link:focus{
     border-color: #404BBF;
 }
 
-.customers-link:hover .customers-icon{
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon{
     fill: #404BBF;
 }
 
@@ -394,6 +424,10 @@ img{
 .footer-section {
     background-color: #2E2F42;
     padding:100px 0;
+}
+
+.footer-container{
+    position: relative;
 }
 
 .footer-logo {
@@ -419,6 +453,42 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.footer-list-messenger {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-link-messenger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link-messenger:hover,
+.footer-link-messenger:focus {
+    background-color: #31D0AA;
+}
+
+.footer-icon-messenger {}
+
+.social-conteiner{
+    position: absolute;
+}
+
+.social-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color:#FFF;
+    margin-bottom: 16px;
 }
 
 /* Portfolio styles */
@@ -447,6 +517,7 @@ img{
     background-color: var(--bg-cl-cloud);
     padding: 12px 24px;
     border: 1px solid var(--slayles-cl);
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .hero-button-portfol:hover,
