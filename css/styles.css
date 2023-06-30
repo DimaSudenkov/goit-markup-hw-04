@@ -628,6 +628,7 @@ img{
 }
 
 .modal-button {
+    position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
